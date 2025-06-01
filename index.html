@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup-page">
+        <div class="left-panel">
+            <div class="left-image">
+                <div class="logo-container">
+                    <img src="./logo/odin-logo.png" alt="Odin Logo" class="logo">
+                    <p class="logo-text">Odin</p>
+                </div>
+                <div class="photo-credit">
+                    <p>Photo by <a href="https://unsplash.com/@heliwest" target="_blank" rel="noopener">Helie West</a> on Unsplash</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="intro-text">
+                <p>
+                    This is <strong>not</strong> a real service! You know you need something like this in your life to help you realize your deepest dreams. <em>Sign up now</em> to get started.
+                </p>
+                <p><em>You know you want to.</em></p>
+            </div>
+
+            <section class="form-section">
+                <h2>Let's do this!</h2>
+
+                <form action="/create-account" method="POST" class="signup-form">
+                    <div class="form-grid">
+
+                        <div class="left-column">
+                            <div class="form-group">
+                                <label for="firstName">First Name <span class="required">*</span></label>
+                                <input type="text" id="firstName" name="firstName" placeholder="John" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="email@example.com" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password">Password <span class="required">*</span></label>
+                                <input type="password" id="password" name="password" placeholder="************" required aria-required="true">
+                            </div>
+                        </div>
+
+                        <div class="right-column">
+                            <div class="form-group">
+                                <label for="lastName">Last Name <span class="required">*</span></label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Doe" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" placeholder="(+231) 555-909 567" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="confirm-password">Confirm Password <span class="required">*</span></label>
+                                <input type="password" id="confirm-password" name="confirm-password" placeholder="************" required aria-required="true">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="submit-button">Create Account</button>
+                    </div>
+
+                    <div class="existing-account">
+                        <p>
+                            Already have an account? 
+                            <a href="#">Log in</a>
+                        </p>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
