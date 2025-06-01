@@ -7,13 +7,10 @@ A responsive and accessible sign-up form inspired by The Odin Project. This is a
 
 ## 🧰 Built With
 
-# HTML5
-
-# CSS3 (Flexbox + Grid)
-
-# Responsive Web Design
-
-# Accessible Form Markup (using aria-* attributes and required)
+#HTML5
+#CSS3 (Flexbox + Grid)
+#Responsive Web Design
+#Accessible Form Markup (using aria-* attributes and required)
 
 ## 📂 Project Structure
 
@@ -25,15 +22,11 @@ odin-sign-up/
 
 ## ✨ Features
 
-# 📱 Mobile-Responsive Layout
-
-# ✅ Required Fields with Validation
-
-# 🎨 Modern Aesthetic with Image Panel
-
-# ♿ Basic Accessibility Considerations
-
-# 🔒 Password & Confirm Password Fields
+ 📱 Mobile-Responsive Layout
+ ✅ Required Fields with Validation
+ 🎨 Modern Aesthetic with Image Panel
+ ♿ Basic Accessibility Considerations
+ 🔒 Password & Confirm Password Fields
 
 
 ## 📝 How to Use
@@ -48,9 +41,9 @@ You can double-click the file or serve it locally using VS Code Live Server or s
 
 ## 📌 Future Improvements
 
-# JavaScript form validation for password matching
-#  Integrate with a back-end or fake API for testing
-# Dark mode styling
+JavaScript form validation for password matching
+Integrate with a back-end or fake API for testing
+Dark mode styling
 
 ## 💡 Inspiration
 
