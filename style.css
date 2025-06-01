@@ -35,3 +35,51 @@ body {
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    border-radius: 8px; 
+    gap: 10px; 
+    margin: o auto;
+}
+
+.logo {
+    width: 20%; 
+    height: auto;
+}
+
+.logo-text {
+    text-align: center;
+    font-family: 'Norse', sans-serif;
+    font-size: 4rem;
+    color: white;
+    margin: 0; 
+}
+
+.photo-credit {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 15px;
+    font-size: 1.0rem;
+    color: #fff;
+}
+
+.right-panel {
+    flex: 2;
+    background-color: #f9fafb;
+    padding: 3rem;
+}
+
+.intro-text {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.form-section h2 {
+    margin-bottom: 1rem;
+}
