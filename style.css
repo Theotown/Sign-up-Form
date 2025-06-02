@@ -83,3 +83,71 @@ body {
 .form-section h2 {
     margin-bottom: 1rem;
 }
+
+.form-grid {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.25rem;
+    color: #4b5563;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border:  1px solid #e5e7eb;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 rgba(37, 99, 235, 0.2);
+}
+
+input:invalid {
+    border-color: #dc2626;
+}
+
+button[type="submit"] {
+    background-color: #596D48;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(89, 109, 72, 1);
+}
+
+button[type="submit"]:hover {
+    background-color: #85c355;
+     box-shadow: 0 4px 10px rgba(89, 109, 72, 1);
+}
+
+.existing-account {
+    margin-bottom: 1.5rem;
+}
+
+.existing-account a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
